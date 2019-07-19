@@ -1,0 +1,8 @@
+stages:
+  - IO
+
+test_io:
+  stage: IO
+  script:
+    - cd Tests
+    - powershell -File ".powershell_io_ci.ps"
